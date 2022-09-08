@@ -83,7 +83,7 @@ NOTE: Please make the server listen on port `:4000`.
 
 - **[Crypto Trading 101: How to Read an Exchange Order Book](https://www.coindesk.com/crypto-trading-101-how-to-read-an-exchange-order-book)**
 - **[Binance Order Book API Endpoint](https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md#order-book)**
-- **[Coinbase Order Book API Endpoint](https://docs.cloud.coinbase.com/exchange/reference/exchangerestapi_getproductbook)**
+- **[Coinbase Order Book API Endpoint](https://docs.cloud.coinbase.com/exchange/reference/exchangerestapi_getproductbook-1)**
 
 _Note that both APIs above are public and don't require any authentication._
 
@@ -98,9 +98,7 @@ Docker image and creates two containers - one for backend and one for frontend.
 
 The respective folder is mounted in `/app` directory inside the container.
 
-It isn't a requirement to use it, but may be convenient.
-
-NOTE: We WILL run your code inside these containers.
+We WILL run your code inside these containers so please make sure your apps load correctly in this setup.
 
 ## Submitting Your Code
 
